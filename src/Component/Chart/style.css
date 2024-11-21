@@ -1,0 +1,51 @@
+.chart__large-image {
+  left: -50px;
+  top: 0px !important;
+}
+.chart__small-image2 {
+  left: -50px !important;
+  bottom: -25px !important;
+}
+.chart__small-image {
+  bottom: 55px !important;
+  right: 0px !important;
+  z-index: 1;
+}
+.chart__large-image {
+  width: 549.49px;
+  height: 313.67px;
+}
+
+.chart__right-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 879px;
+  height: 570px;
+  position: absolute;
+}
+.chart__right-section {
+  height: 600px !important;
+}
+.footer {
+  margin-bottom: 10px;
+}
+.chart__left-section{
+  max-width: 485px !important;
+}
+
+.chart__left-section h1{
+    padding-top: 2;
+    padding-bottom: 75px;
+}
+.chart__left-section p{
+    padding-bottom: 75px;
+}
+.chart__small-image img{
+  width: 627px;
+height: 400px;
+
+}
+.chart__icon {
+  padding: 50px;
+}

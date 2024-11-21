@@ -1,0 +1,99 @@
+/* RequestForm.css */
+
+.request-form-container {
+  text-align: center;
+  color: #f0f0f0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.request-form-container h2 {
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 65.04px;
+  letter-spacing: 5px;
+  margin: 0px;
+  padding-bottom: 1px;
+}
+
+.request-form-container p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.94px;
+}
+
+.request-form input,
+.request-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #1a2b39;
+  border-radius: 4px;
+  background-color: #1a2b39;
+  color:white;
+  font-size: 1rem;
+}
+.request-form input::placeholder{
+    color: white;
+}
+.request-form textarea::placeholder{
+    
+    color: white;
+}
+
+.request-textarea {
+    height: 80px !important;
+}
+
+
+.request-form textarea {
+  min-height: 100px;
+}
+
+.request__btn {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: transparent;
+    border: 1px solid #0D2937;
+    border-radius: 4px;
+    color: #f0f0f0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.request-form {
+  max-width: 380px;
+  width: 100%;
+  margin: auto;
+}
+.request-form textarea {
+  resize: none;
+}
+
+.request-form button:hover {
+  background-color: #f0f0f0;
+  color: #0e1b25;
+}
+.requ__logo-left{
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    z-index: -1;
+
+}
+.requ__logo-left img{
+    width: 138px;
+height: 91px;
+
+
+}
+.requ__logo-left img:nth-child(1){
+    border-right: 0.5px solid white;
+
+}
+.requ__logo-left img:nth-child(2){
+    border-right: 0.5px solid white;
+
+}

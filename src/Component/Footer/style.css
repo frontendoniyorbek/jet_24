@@ -1,0 +1,51 @@
+.footer {
+  padding: 0.5rem 0;
+  width: 100%;
+  position: fixed;
+  bottom: 36px;
+}
+
+.footer nav {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  border-radius: 50px;
+  background: #11232D;
+  padding: 1.2rem 2rem;
+}
+
+.footer-content ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content ul li {
+  font-size: 0.9rem;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s;
+  position: relative;
+}
+
+/* Add separator line after certain items */
+.footer-content ul li:nth-child(1)::after,
+.footer-content ul li:nth-child(6)::after {
+  content: "";
+  position: absolute;
+  right: -1rem;
+  /* Position line to the right */
+  height: 1.5rem;
+  width: 1px;
+  background-color: #ccc;
+  opacity: 0.5;
+}
+
+/* Hover effect */
+.footer-content ul li:hover {
+  color: #ccc;
+}

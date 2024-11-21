@@ -1,0 +1,100 @@
+.concierge-page {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  color: #ffffff;
+}
+
+
+.left-section h1 {
+  font-family: Neue Haas Unica;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 68px;
+  text-align: left;
+  margin-bottom: 33px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.left-section p {
+  font-family: Microsoft JhengHei;
+  font-size: 21px;
+  font-weight: 290;
+  line-height: 25.94px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.icon-section {
+  display: flex;
+  gap: 20px;
+}
+.icon-section img{
+  width: 77px;
+  height: 77px;
+  
+}
+.left-section p{
+  margin-top: 0px !important;
+}
+.icon-section img{
+  padding: 13px;
+}
+.icon-section img:nth-child(1) {
+  border-right: 0.5px solid white;
+}
+.icon-section img:nth-child(2) {
+  border-right: 0.5px solid white;
+}
+
+.right-section {
+  width: 879px;
+  height: 570px;
+  position: absolute;
+  top: 18px;
+  right: 0;
+}
+
+.small-image img{
+}
+
+
+
+.image{
+  position: absolute;
+}
+.small-image
+{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 590.35px;
+height: 357px;
+
+}
+.small-image img{
+  position: absolute;
+  right: 0px;
+}
+.small-image2{
+  
+  position: absolute;
+  bottom: -5.6px;
+  left:143.5px;
+  z-index: 1;
+
+}
+
+
+.large-image img{
+
+}
+
+.large-image{
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  
+}

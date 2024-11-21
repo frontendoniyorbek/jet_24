@@ -1,0 +1,53 @@
+.ab__large-image {
+    right: 495px;
+    top: -58px;
+}
+
+.bigImg{
+    position: absolute;
+    bottom: 38px;
+    right: 0;
+}
+.about-right-section{
+    width: 100%;
+}
+
+.left-section {
+    max-width: 591px;
+}
+
+.ab__left-section h1 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 90px !important;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 317px;
+}
+
+.ab__left-section p {
+    width: 580px;
+    font-size: 18px;
+    font-weight: 290;
+    line-height: 22.86px;
+
+}
+
+.ab__icon-section {
+    margin-top: 40px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    padding-left: 78px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-right-section{
+    height: 580px;
+    z-index: 10;
+}

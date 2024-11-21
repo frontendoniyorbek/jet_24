@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Neue Haas Unica';
+  src: url('./assets/Fonts/NeueHaasUnica-Regular.woff2') format('woff2'),
+    url('./assets/Fonts/NeueHaasUnica-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Neue Haas Unica', sans-serif;
+  background-color: rgb(9, 29, 39);
+}
+
+
+/* Ensure the app container takes the full height of the viewport */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 900vh;
+  position: relative;
+}
+
+/* Content area takes up all available space, pushing the footer down */
+.content {
+  height: 100vh;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+/* Footer styling */
+.footer {
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+/* 
+.body{
+
+  max-width: 1440px;
+  width: 100%;
+  overflow: hidden;
+}
+ */
+
+.container2 p {
+  font-family: Neue Haas Unica;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  color: white;
+}
+
+/* Убираем стандартные стили для <Link> */
+.link {
+  text-decoration: none;
+  /* Убираем подчеркивание */
+  color: inherit;
+  /* Наследуем цвет родителя */
+  font-weight: normal;
+  /* Отключаем жирное начертание */
+}
+
+.Link {
+  text-decoration: none;
+}
+
+
+.textBox {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+
+.animate_start {
+  width: 100%;
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+}
+
+.box_animated {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: 80px;
+}
+
+.box_animated1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: 80px;
+  z-index: 1;
+}
+
+.box_animated2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+.TheBox{
+  position: relative;
+  z-index: 10;
+  bottom: -150px;
+  opacity: 0;
+}
+
+.relative{
+  position: relative;
+}
+.big-animation_container{
+  display: flex;
+  width: 600%;
+  height: 100vh;
+  top: 24px;
+}
+.box_animated3{
+  max-width: 1440px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.box_animated4{
+  max-width: 1440px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.box_animated5{
+  max-width: 1440px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.box_animated6{
+  max-width: 1440px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.box_animated7{
+  max-width: 1440px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.box_animated8{
+  max-width: 1840px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+/* .box_animated3 {
+  position: fixed;
+  right: -100%;
+}
+
+.box_animated4 {
+  position: fixed;
+  right: -100%;
+}
+
+.box_animated5 {
+  position: fixed;
+  right: -100%;
+}
+
+.box_animated6 {
+  position: fixed;
+  right: -100%;
+}
+
+.box_animated7 {
+  position: fixed;
+  right: -100%;
+}
+
+.box_animated8 {
+  position: fixed;
+  right: -100%;
+} */
+
+.footer_animation {
+  opacity: 0;
+}
+
